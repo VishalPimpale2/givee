@@ -35,6 +35,7 @@ const Storeadmin = () => {
                         </Layout>
                         <Row>
                             <Col span={12}><Title level={2} style={{ margin: '0px' }}>Store admin</Title></Col>
+                            {console.log("prathamesh")}
                             <Col span={12} style={{ display: 'flex', justifyContent: 'end' }}>
                                 <Button shape="round" size='large' icon={<CaretRightOutlined style={{ fontSize: '20px' }} />} style={{ display: 'flex', alignItems: 'center', marginRight: '10px', borderColor: '#ea580c', color: '#ea580c' }}>Preview</Button>
                                 <Button disabled type="primary" shape="round" size='large' icon={<SaveFilled style={{ fontSize: '16px' }} />} >
